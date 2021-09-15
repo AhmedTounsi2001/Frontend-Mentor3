@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Big shoulders display', sans-serif;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: hsl(0, 0%, 95%);
+}
+
+a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7em;
+    font-size: 1.2;
+    font-weight: lighter;
+}
+
+.main-ctn {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin: 50px;
+}
+
+.ctn-1:hover {
+    transform: scale(1.1);
+}
+
+.ctn-2:hover {
+    transform: scale(1.1);
+}
+
+.ctn-3:hover {
+    transform: scale(1.1);
+}
+
+.ctn-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: transform .3s;
+}
+
+.ctn-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+    transition: transform .3s;
+}
+
+.ctn-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: transform .3s;
+}
+
+.content p {
+    margin-bottom: 80px;
+}
+
+.btn-1 a:hover {
+    text-decoration: underline solid 2px;
+    text-decoration-color: hsl(31, 77%, 52%);
+}
+
+.btn-2 a:hover {
+    text-decoration: underline solid 2px;
+    text-decoration-color: hsl(184, 100%, 22%);
+}
+
+.btn-3 a:hover {
+    text-decoration: underline solid 2px;
+    text-decoration-color: hsl(179, 100%, 13%);
+}
+
+.btn-1 span {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-2 span {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3 span {
+    color: hsl(179, 100%, 13%);
+}
